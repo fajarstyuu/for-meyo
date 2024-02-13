@@ -85,8 +85,12 @@
   padding-top: 50px;
 }
 
+.notes .container{
+  height: 500px;
+}
+
 .letter .container{
-  margin-bottom: 0px;
+  height: 400px;
 }
 
 .letter .container h1,
