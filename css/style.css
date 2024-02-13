@@ -72,11 +72,6 @@
   height: 100px;
   filter: drop-shadow(2px 2px 2px black);
 }
-
-.sharky{
-  top: -15px;
-}
-
 .letter,
 .gallery,
 .notes {
@@ -84,10 +79,11 @@
   height: fit-content;
 }
 .letter .container,
-.gallery .container,
 .notes .container {
   padding-top: 50px;
 }
+
+
 
 .letter .container h1,
 .gallery .container h1,
