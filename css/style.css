@@ -69,7 +69,7 @@
 
 .Herosection .container img {
   max-width: 300px;
-  height: 100px;
+  height: 120px;
   filter: drop-shadow(2px 2px 2px black);
 }
 .letter,
@@ -83,6 +83,10 @@
 .gallery .container,
 .notes .container {
   padding-top: 50px;
+}
+
+.gallery .container{
+  height: 705px;
 }
 
 .notes .container{
@@ -120,14 +124,29 @@
   
 }
 .gallery .carousel img {
+  width: 500px;
+  height: 500px;
   border-radius: 20px;
-  filter: brightness(0.6);
+  filter: brightness(0.5);
+  object-fit: cover;
 }
 .gallery .icon {
   position: relative;
   margin-top: 50px;
   z-index: 2;
   width: 50px;
+}
+
+.notes .icon{
+  position: relative;
+  margin-top: 10px;
+  z-index: 2;
+  width: 300px;
+}
+
+.sharky{
+  margin-top: 30px;
+  width: 200px;
 }
 
 .button {
